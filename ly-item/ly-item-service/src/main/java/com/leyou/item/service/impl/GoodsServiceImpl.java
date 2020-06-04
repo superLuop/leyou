@@ -327,7 +327,7 @@ public class GoodsServiceImpl implements GoodsService {
     }
 
     /**
-     *
+     * 减库存
      * @param cartDtos
      */
     @Transactional
