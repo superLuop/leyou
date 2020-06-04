@@ -58,7 +58,6 @@ public class GoodsServiceImpl implements GoodsService {
     public PageResult<Spu> querySpuByPage(Integer page, Integer rows, String key, Boolean saleable) {
         //分页
         PageHelper.startPage(page, rows);
-
         Example example = new Example(Spu.class);
         Example.Criteria criteria = example.createCriteria();
 
@@ -80,7 +79,6 @@ public class GoodsServiceImpl implements GoodsService {
         //对查询结果中的品牌名和分类名处理
         handleCategoryAndBrand(spus);
         PageInfo<Spu> pageInfo = new PageInfo<>(spus);
-
         return new PageResult<>(pageInfo.getTotal(), spus);
     }
 
