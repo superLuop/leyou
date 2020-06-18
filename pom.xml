@@ -13,6 +13,8 @@
         <module>ly-item</module>
         <module>ly-common</module>
         <module>ly-upload</module>
+        <module>ly-search</module>
+        <module>ly-page</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -184,7 +186,7 @@
         </plugins>
     </build>
 
-    <repositories>
+<!--    <repositories>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
@@ -193,6 +195,6 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>-->
 
 </project>

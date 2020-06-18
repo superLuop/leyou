@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "eureka.main.allow-bean-definition-overriding",
+      "type": "java.lang.String",
+      "description": "Description for eureka.main.allow-bean-definition-overriding."
+    },
+    {
+      "name": "eureka.main.allow-bean-definition-overriding",
+      "type": "java.lang.String",
+      "description": "Description for eureka.main.allow-bean-definition-overriding."
+    }
+  ] }
